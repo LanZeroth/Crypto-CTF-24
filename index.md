@@ -1,13 +1,13 @@
 # Welcome to My Crypto CTF 2024 Write-ups Solution
 
-[ctf-landing-page](/images/crypto.png)
+![ctf-landing-page](/images/crypto.png)
 
 
 "Hello there! 👋 Welcome to my Crypto CTF Writeups repository! I had the pleasure of joining the Crypto 2024 CTF with my team, BOTscope, using the alias LanZero. Here, I'll share detailed write-ups for challenges I solved during the competition. Let's dive into the crypto mysteries together!"
 
 
 
-[welcome](/images/welcome.png)
+![welcome](/images/welcome.png)
 
 In the first challenge, called 'Welcome' under the 'Easy' category, the flag was readily provided in the Message section for us to input.
 ```
@@ -18,7 +18,7 @@ flag: CCTF{Harn3sS_Y0ur_CrYptO9rAphy_Pr0wEs5_💪_⚡_💥_🔥!}
 
 In the second challenge, 'Mashy,' we were required to download a .txz file, a compressed archive. Upon extraction, we found a 'mashy.py' file inside. Stay tuned for how we navigated through this puzzle
 
-````
+
 #!/usr/bin/env python3
 
 import sys
@@ -80,6 +80,6 @@ def main():
 
 if __name__ == '__main__':
 	main()
-```
+
 
 
