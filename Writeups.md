@@ -9,7 +9,7 @@
 
 ![welcome](/Screenshot_2024-06-09_10_09_15.png)
 
-In the first challenge, called 'Welcome' under the 'Easy' category, the flag was readily provided in the 'Flag Input' section for us to input.
+In the first challenge, called 'Welcome' under the 'Easy' category, the flag was readily provided in the Message section for us to input.
 ```
 flag: CCTF{Harn3sS_Y0ur_CrYptO9rAphy_Pr0wEs5_💪_⚡_💥_🔥!}
 ```
