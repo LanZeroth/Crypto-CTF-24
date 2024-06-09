@@ -16,8 +16,26 @@ flag: CCTF{Harn3sS_Y0ur_CrYptO9rAphy_Pr0wEs5_💪_⚡_💥_🔥!}
 
 ![mashy](/images/mashy.png)
 
-In the second challenge, 'Mashy,' we were required to download a .txz file, a compressed archive. Upon extraction, we found a 'mashy.py' file inside. Stay tuned for how we navigated through this puzzle
+Challenge 2: Mashy 💾
 
+
+Challenge Description
+
+In the second challenge, 'Mashy,' we were required to download a .txz file, a compressed archive. Upon extraction, we found a mashy.py file inside. Let's walk through the solution step-by-step.
+Connecting to the Challenge
+
+The challenge requires connecting to a remote server using netcat:
+
+```bash
+nc 01.cr.yp.toc.tf 1377
+```
+
+Once connected, the script mashy.py is executed on the server side. We need to understand and exploit this script to retrieve the flag.
+Analyzing mashy.py
+
+Here's the mashy.py script:
+
+python
 ```python
 #!/usr/bin/env python3
 
